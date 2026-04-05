@@ -215,6 +215,7 @@ main h2 {
 }
 
 /* sign section ends */
+/* footer start */
 
 footer {
 	height: 4rem;
@@ -227,3 +228,5 @@ footer p {
 	color: white;
 	word-spacing: 2px;
 }
+
+/* footer ends */
