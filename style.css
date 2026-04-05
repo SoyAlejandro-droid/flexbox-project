@@ -151,3 +151,33 @@ main h2 {
 }
 
 /* main ends */
+
+/* article start */
+
+.quote-article {
+	height: 25rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quote-article div {
+	width: 48rem;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.quote-article div p {
+	text-align: justify;
+	font-style: italic;
+}
+
+.quote-article div span {
+	text-align: end;
+	font-weight: bold;
+}
+
+/* article end */
+
+/* sign section start */
