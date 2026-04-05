@@ -111,6 +111,7 @@ a {
 .div-image img {
 	width: 100%;
 	height: 100%;
+	border-radius: 10px;
 }
 
 /* header ends */
@@ -181,3 +182,48 @@ main h2 {
 /* article end */
 
 /* sign section start */
+
+.sign-section {
+	height: 25rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sign-wrapper{
+	background-color: #3882F6;
+	color: white;
+	width: 80rem;
+	height: 8rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.sign-description span {
+	font-weight: bold;
+}
+
+.sign-section button {
+	border-radius: 10px;
+	border: 1px solid white;
+	width: 8rem;
+	height: 2rem;
+	color: white;
+	font-weight: bold;
+}
+
+/* sign section ends */
+
+footer {
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	color: white;
+	word-spacing: 2px;
+}
